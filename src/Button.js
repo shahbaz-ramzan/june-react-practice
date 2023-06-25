@@ -5,7 +5,9 @@ export default function Button(props) {
     <>
       <h1>MyApp</h1>
       <h1>{props.string}</h1>
-      <span style={{ backgroundColor: "red", color: "white" }}>Hello world !</span>
+      <span style={{ backgroundColor: "red", color: "white" }}>
+        Hello world !
+      </span>
     </>
   );
 }
