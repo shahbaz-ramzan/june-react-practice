@@ -36,12 +36,14 @@
 // export default App;
 
 import Form from "./Form";
+import UseStateHook from "./UseStateHook";
 
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Hello</h1>
-      <Form />
+      {/* <h1 style={{ textAlign: "center" }}>Hello</h1>
+      <Form /> */}
+      <UseStateHook/>
     </div>
   );
 }

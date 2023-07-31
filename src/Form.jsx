@@ -8,7 +8,7 @@ export default function Form() {
   console.log(state);
   return (
     <div>
-      Form
+      {/* Form
       <form>
         <input
           style={{ width: "100%", font: "30px" }}
@@ -17,7 +17,7 @@ export default function Form() {
           value={state}
           onChange={handleChange}
         ></input>
-      </form>
+      </form> */}
     </div>
   );
 }
