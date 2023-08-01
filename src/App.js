@@ -37,13 +37,15 @@
 
 import Form from "./Form";
 import UseStateHook from "./UseStateHook";
+import Counter from "./Counter";
 
 function App() {
   return (
     <div>
       {/* <h1 style={{ textAlign: "center" }}>Hello</h1>
       <Form /> */}
-      <UseStateHook/>
+      <UseStateHook />
+      <Counter />
     </div>
   );
 }
